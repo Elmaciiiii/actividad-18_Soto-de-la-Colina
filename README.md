@@ -1,65 +1,62 @@
-# 🌌 Arte Fractal Interactivo en Processing -- Actividad 18
+# 🌌 Arte Fractal en Processing -- Actividad 18
 
-Este proyecto reúne **dos fractales clásicos** programados en
-**Processing** y enriquecidos con interactividad, animaciones y
-personalización visual.\
-A través de recursividad, iteraciones y técnicas de exploración gráfica,
-se logra una experiencia artística que combina matemática, programación
-y creatividad.
+Este proyecto desarrolla dos fractales clásicos utilizando
+**Processing**, explorando recursividad, iteraciones y visualización
+artística.\
+Se trabajaron el **Triángulo de Sierpinski** y el **Conjunto de
+Mandelbrot**, ambos enriquecidos con interactividad, animaciones y
+personalización de color, siguiendo los lineamientos de la consigna.
 
 ------------------------------------------------------------------------
 
-## 🌀 Fractales Implementados
+## 🔺 Triángulo de Sierpinski
 
-### 🔺 Triángulo de Sierpinski
+El primer ejercicio implementa el fractal de Sierpinski mediante
+**recursividad geométrica en 2D**.\
+Sobre el código base se agregaron mejoras para lograr una experiencia
+interactiva:
 
-Un fractal geométrico construido mediante recursividad que divide
-triángulos en sub-triángulos infinitos.\
-La implementación incluye mejoras para hacerlo dinámico y manipulable en
-tiempo real:
+-   Control de **profundidad** con teclas ↑ y ↓.\
+-   **Rotación manual** con R y **rotación automática** con SPACE.\
+-   Cambio de **paleta de colores** (C) con cuatro modos disponibles.\
+-   Animaciones dinámicas del color variando tonos y saturación.\
+-   Información en pantalla que muestra el estado de los controles.
 
--   Ajuste de **profundidad recursiva** con teclas ↑/↓.\
--   **Rotación manual** (R) y **rotación automática** (SPACE).\
--   **Cambios de paleta de colores** (C) con 4 estilos diferentes.\
--   Animación del color mediante variaciones de tono.\
--   Información en pantalla mostrando los controles activos.
+El resultado es un fractal fluido, dinámico y completamente modificable
+por el usuario.
 
-### 🌑 Conjunto de Mandelbrot
+------------------------------------------------------------------------
 
-Un fractal basado en números complejos y miles de iteraciones por
-píxel.\
-Incluye características avanzadas para su exploración:
+## 🌌 Conjunto de Mandelbrot
+
+El segundo ejercicio implementa el clásico fractal del plano complejo,
+utilizando iteraciones para colorear cada punto según su
+comportamiento.\
+Se añadieron opciones avanzadas de exploración:
 
 -   **Zoom interactivo** con la rueda del mouse.\
--   **Desplazamiento** del plano arrastrando con el mouse.\
--   **Reinicio rápido** con R.\
--   **6 paletas de colores** seleccionables (C).\
--   Panel con datos de zoom, iteraciones y paleta actual.
+-   **Desplazamiento del plano** con click y arrastre.\
+-   **Reinicio** rápido con R.\
+-   Selección de **seis paletas de colores** diferentes (C).\
+-   Interfaz en pantalla con datos de zoom, iteraciones y paleta activa.
 
-#### 🎥 Modo Explorador Automático (E)
-
-Recorre zonas famosas del fractal como *Elephant Valley* y *Seahorse
-Valley*, ajustando:
-
--   Zoom progresivo\
--   Iteraciones\
--   Paletas de colores
+Esto produce una animación fluida que permite observar la complejidad
+del Mandelbrot sin interacción del usuario.
 
 ------------------------------------------------------------------------
 
-## 🚀 Cómo Probar el Proyecto
+## 📁 Repositorio en GitHub
 
-1.  **Descargar el repositorio:**\
-    https://github.com/Elmaciiiii/actividad-18_Soto-de-la-Colina.git
-
-2.  **Abrir los sketches en Processing.**
-
-3.  **Ejecutar** cada fractal y usar los controles en pantalla.
+El proyecto completo se encuentra disponible en:\
+👉 https://github.com/Elmaciiiii/actividad-18_Soto-de-la-Colina.git
 
 ------------------------------------------------------------------------
 
 ## 🏁 Conclusión
 
-La actividad permitió comprender cómo se generan fractales mediante
-recursividad e iteraciones, y cómo personalizarlos para convertirlos en
-**arte digital interactivo**.
+La actividad permitió comprender cómo se construyen y representan
+fractales mediante **recursividad**, **iteraciones** y técnicas de
+renderizado.
+Las personalizaciones aplicadas ---colores, zoom, rotaciones y modo
+explorador--- lograron transformar ambos fractales en piezas de **arte
+digital interactivo**, superando lo requerido por la consigna.
